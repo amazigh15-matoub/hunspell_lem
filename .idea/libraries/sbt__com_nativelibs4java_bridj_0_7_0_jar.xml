@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.nativelibs4java:bridj:0.7.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.nativelibs4java/bridj/bundles/bridj-0.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.nativelibs4java/bridj/srcs/bridj-0.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
