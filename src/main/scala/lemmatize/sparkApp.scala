@@ -52,7 +52,7 @@ object SimpleSparkApp extends App {
   * L'écriture d'un DataFrame sous format CSV ne permet pas d'avoir des colonnes de ce type
   * La fonction adapter (spark udf) permet de gérer cette erreur, en "Unpack" la liste
   * */
-  val adapter = udf((vs: List[String]) => vs match {
+  val adapter = udf((vs: Seq[String]) => vs match {
     case null => null
     case _    => s"""[${vs.mkString(",")}]"""
   })
